@@ -46,9 +46,9 @@ Enter attendance percentage: 80
 <span style="color: blue;">Predicted Score: 73.31</span>
 
 <h2 style="color: blue;">📊 Machine Learning Details</h2>
-	•	Algorithm used: Linear Regression
-	•	Train-test split: 80% training, 20% testing
-	•	Evaluation metric: Mean Squared Error (MSE)
+	•	Algorithm used: Linear Regression<br>
+	•	Train-test split: 80% training, 20% testing<br>
+	•	Evaluation metric: Mean Squared Error (MSE)<br>
 
 <h2 style="color: blue;">🚀 Future Improvements</h2>
 	•	Add data visualization using graphs
