@@ -25,7 +25,6 @@ This project uses Machine Learning to automate that prediction process.<br>
 ---
 
 <h2 style="color: blue;">📂 Project Structure</h2>
-```text
 student-performance-ml/<br>
 student_performance.py<br>
 data.csv<br>
@@ -34,7 +33,7 @@ README.md<br>
 
 <h2 style="color: blue;">⚙️ How to Run the Project</h2>
 
-<h3 style="color: blue;">1️⃣ Install required libraries</h3>
+1️⃣ Install required libraries
 pip install -r requirements.txt<br>
 2️⃣ Run the Python file<br>
 python student_performance.py<br>
