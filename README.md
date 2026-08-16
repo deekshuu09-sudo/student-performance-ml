@@ -1,60 +1,45 @@
-<h1 style="color: blue;">🎓 Student Performance Prediction using Machine Learning</h1>
+# Student Performance Prediction using Machine Learning
 
-<h2 style="color: blue;">📌 Project Overview</h2>
-This project predicts a student's exam score based on:<br>
-- Study hours<br>
-- Attendance percentage  <br>
+A machine learning project that predicts a student's exam score based on study hours and attendance percentage.
 
-A Machine Learning model is trained using Linear Regression to estimate student performance from historical data.<br>
+## Project Overview
 
----
+The project uses Linear Regression to estimate student exam performance from historical student data.
 
-<h2 style="color: blue;">🧠 Problem Statement</h2>
-Teachers often need to predict student performance based on study habits and attendance.<br> 
-This project uses Machine Learning to automate that prediction process.<br>
+The model takes the following inputs:
 
----
+- Study hours
+- Attendance percentage
 
-<h2 style="color: blue;">🛠️ Technologies Used</h2>
-- Python<br>
-- Pandas<br>
-- Scikit-learn<br>
-- VS Code<br>
-- Git & GitHub<br>
+It then predicts the expected exam score.
 
----
+## Problem Statement
 
-<h2 style="color: blue;">📂 Project Structure</h2>
-student-performance-ml/<br>
-student_performance.py<br>
-data.csv<br>
-requirements.txt<br>
-README.md<br>
+Student performance can be influenced by factors such as study time and attendance. This project explores how machine learning can be used to estimate exam scores based on these factors.
 
-<h2 style="color: blue;">⚙️ How to Run the Project</h2>
+## Machine Learning Approach
 
-1️⃣ Install required libraries
-pip install -r requirements.txt<br>
-2️⃣ Run the Python file<br>
-python student_performance.py<br>
-3️⃣ Enter input when prompted<br>
-Enter study hours: 6<br>
-Enter attendance percentage: 80<br>
-<span style="color: blue;">✅ Sample Output</span>
-<span style="color: blue;">Predicted Score: 73.31</span>
+1. Load the student performance dataset using Pandas.
+2. Prepare the input features and target variable.
+3. Split the dataset into training and testing sets.
+4. Train a Linear Regression model using Scikit-learn.
+5. Generate predictions for the test data.
+6. Evaluate the model using Mean Squared Error.
+7. Accept user input and generate an estimated exam score.
 
-<h2 style="color: blue;">📊 Machine Learning Details</h2>
-	•	Algorithm used: Linear Regression<br>
-	•	Train-test split: 80% training, 20% testing<br>
-	•	Evaluation metric: Mean Squared Error (MSE)<br>
+## Tech Stack
 
-<h2 style="color: blue;">🚀 Future Improvements</h2>
-	•	Add data visualization using graphs<br>
-	•	Use advanced Machine Learning models<br>
-	•	Convert the project into a web application<br>
+- Python
+- Pandas
+- Scikit-learn
+- Linear Regression
+- Git & GitHub
 
-<h2 style="color: blue;">👤 Author</h2>
+## Project Structure
 
-<b>Deekshitha Roy<b><br>
-B.Tech CSE (AI & ML) Student<br>
-GitHub: https://github.com/deekshuu09-sudo<br>
+```text
+student-performance-ml/
+├── student_performance.py
+├── data.csv
+├── requirements.txt
+└── README.md
